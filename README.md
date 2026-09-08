@@ -2,7 +2,7 @@
 
 Microservicio encargado de la gestión de cobros, implementado con **Java**, **Spring Boot**, **Docker** y un pipeline de automatización CI/CD con **GitHub Actions**.
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 * **Lenguaje:** Java 17
 * **Framework:** Spring Boot
@@ -11,7 +11,7 @@ Microservicio encargado de la gestión de cobros, implementado con **Java**, **S
 * **CI/CD:** GitHub Actions
 * **Control de Versiones:** Git & GitHub (Metodología GitFlow)
 
-## 🌿 Estrategia de Ramificación (GitFlow)
+##  Estrategia de Ramificación (GitFlow)
 
 El repositorio sigue la estructura estándar de GitFlow:
 * `main`: Contiene el código de producción listo para despliegue.
@@ -19,7 +19,7 @@ El repositorio sigue la estructura estándar de GitFlow:
 * `feature/*`: Ramas para el desarrollo de nuevas características.
 * `hotfix/*`: Ramas para correcciones críticas en producción.
 
-## 🔄 Pipeline de Integración Continua (CI/CD)
+##  Pipeline de Integración Continua (CI/CD)
 
 El workflow se activa automáticamente ante:
 * `push` en la rama `develop`.
@@ -31,7 +31,7 @@ El workflow se activa automáticamente ante:
 3. Compilación y ejecución de pruebas unitarias (`mvn clean test`).
 4. Construcción de la imagen Docker de prueba.
 
-## 🚀 Instalación y Ejecución Local
+##  Instalación y Ejecución Local
 
 1. **Clonar el repositorio:**
    ```bash
